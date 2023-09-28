@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <div>
+        <h2 style=text-align:center> Registration form</h2>
+    </div><hr><hr>
+    <br>
+    <form>
+        <table>
+            <h2>required</h2>
+            <tr>
+                <td>
+                    name:
+                </td>
+                <td>
+                    <input type="text" placeholder="enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    phone no:
+                </td>
+                <td>
+                    <input type="text" placeholder="enter your phone number">
+                </td>
+            </tr>
+            <tr><td>email id</td>
+                <td><input type="text" placeholder="enter your email id "></td>
+            </tr>
+            <tr><td>password</td>
+                <td><input type="text" placeholder="enter your password"></td>
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td><label for="rmale">male</label>
+                    <input type="radio" name="rmale" id="rmale">
+                    <label for="rfemale">female</label>
+                    <input type="radio" name="rfemale" id="rfemale">
+                    <label for="rothers">others</label>
+                    <input type="radio" name="others" id="others">
+                </td>
+            </tr>
+            <tr>
+                <td>date of birth</td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+        </table>
+    </form><hr> <h2> <ul>Extra</ul></h2>
+    <tr><td>Educational Qualifications</td>
+        <td>
+            <select> <option></option>
+                <option>Btech</option>
+                <option>MBA</option>
+                <option>Mtech</option>
+            </select>
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <span>
+            <td> 
+                Hobbies:
+                <input type="checkbox"playing chess>playing chess 
+                <input type="checkbox"cooking>cooking
+                <input type="checkbox"travelling>travelling
+                <input type="checkbox"watching webseries>watching webseries
+            </td>
+        </span>
+    </tr>
+    <br>
+    <tr>
+        <td>search:</td> <td><input type="search" id="send" oninput="result.value=send.value"><br></td>
+        <td>time: </td> <td><input type="time" id="send" oninput="result.value=send.value"><br></td>
+        <td>day:</td> <td><input type="day" id="send" oninput="result.value=send.value"><br></td>
+        <td>week:</td> <td><input type="week" id="send" oninput="result.value=send.value"><br></td>
+        <td>month:</td> <td><input type="month" id="send" oninput="result.value=send.value"><br></td>
+        <td>year:</td> <td><input type="year" id="send" oninput="result.value=send.value"><br></td>
+    </tr>
+    <footer>
+        <input type="range" id="send" oninput="result.value=send.value"><br>
+        <input type="color" id="send" oninput="result.value=send.value"><br>
+        <input type="button" value="button"><br>
+    </footer>
+    <tr>
+        <hr><h2>Applicable</h2>
+        ><p>caste:</p>
+        <p>Father Name:</p>
+        <p>Mother Name:</p>
+        <p>contact:</p>
+        <td>Address:</td> <td><input type="text" placeholder="Address"></td><br>
+        <tr>
+            <hr>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </tr>
+    <hr>
+    <hr>
+
+    
+</body>
+</html>
